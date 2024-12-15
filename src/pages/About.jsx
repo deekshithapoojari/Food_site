@@ -1,7 +1,11 @@
-import React from 'react'
+import { Box } from "@mui/material";
+import React from "react";
+import AboutContent from "../components/AboutContent";
 
 export default function About() {
   return (
-    <div>About</div>
-  )
+    <Box sx={{ p: 3 }}>
+      <AboutContent />
+    </Box>
+  );
 }

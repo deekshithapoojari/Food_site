@@ -45,24 +45,18 @@ function NavBar() {
     <AppBar
       position="static"
       elevation={2}
-      sx={{ backgroundColor: "#a2d2ff", p: 2 }}
+      sx={{ backgroundColor: "#fff" ,color:"white"}}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Box sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}>
+          <Box sx={{ display: { xs: "none", md: "flex" }, mr: 1 ,color:"white"}}>
             <img
-              style={{ width: "150px", color: "black" }}
-              src={logo}
+              style={{ width: "50px", color: "black",height:"50px",borderRadius:"50%" }}
+              src={"https://cdn.vectorstock.com/i/500p/43/74/cooking-cuisine-logo-cute-girl-in-chef-hat-vector-24934374.jpg"}
               alt="logo"
             />
           </Box>
-          <Box sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}>
-            <img
-              style={{ width: "200px", color: "black" }}
-              src={""}
-              alt="logo"
-            />
-          </Box>
+        
           <Box
             sx={{
               flexGrow: 1,
@@ -76,7 +70,7 @@ function NavBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              sx={{ color: "black" }}
+              sx={{ color: "white" }}
             >
               <MenuIcon />
             </IconButton>

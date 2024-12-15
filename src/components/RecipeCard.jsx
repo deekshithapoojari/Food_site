@@ -16,7 +16,7 @@ import {
   
     return (
       <div>
-        <Link to={`/recipe/${recipe.id}`} style={{ textDecoration: "none" }}>
+        <Link to={`/singleRecipe/${recipe.id}`} style={{ textDecoration: "none" }}>
           <Paper elevation={2} sx={{ height: "100%" }}>
             <CardMedia
               component="img"

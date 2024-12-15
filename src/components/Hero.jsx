@@ -1,18 +1,18 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 
-import food3 from "../Assests/Images/food3.jpg"
+import food3 from "../Assests/Images/food3.jpg";
 export default function Hero() {
   return (
     <Box
       sx={{
         width: "100%",
-        height: "90vh",
+        height: "100vh",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundImage:`url(${food3})`,
-        backgroundSize:'cover',
-        backgroundPosition:'center'
+        backgroundImage: `url(https://images.pexels.com/photos/2403392/pexels-photo-2403392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <Box
@@ -24,8 +24,6 @@ export default function Hero() {
           alignItems: "center",
           flexDirection: "column",
           textAlign: "center",
-          backgroundImage: "linear-gradient(144deg, #8000ff4a, #00ff7178)",
-       
         }}
       >
         <Typography
@@ -33,25 +31,24 @@ export default function Hero() {
             fontWeight: "900",
             fontSize: { xs: "50px", sm: "80px" },
             textTransform: "uppercase",
-            color: "#000000b8",
+            color: "yellow",
           }}
-          
           gutterBottom
         >
-          Welcome to website
+          Flavor Fusion
         </Typography>
         <Typography
           gutterBottom
-          sx={{ fontWeight: "900", fontSize: "20px", color: "#000000b8" }}
+          sx={{ fontWeight: "900", fontSize: "20px", color: "#fff" }}
         >
-          Explore. Cook. Savor. Your Culinary Universe Awaits.
+          Where Every Recipe Tells a Story.
         </Typography>
         <Typography
           gutterBottom
-          sx={{ width: "80%", fontWeight: "600", color: "#000000b8" }}
+          sx={{ width: "80%", fontWeight: "600", color: "#fff " }}
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit iusto
-          totam doloribus id tempore. Numquam a esse ut minima sapiente.
+          From everyday meals to gourmet delights, Discover recipes that spark
+          joy in every bite.
         </Typography>
       </Box>
     </Box>
