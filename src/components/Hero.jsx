@@ -35,7 +35,7 @@ export default function Hero() {
           }}
           gutterBottom
         >
-          Flavor Fusion
+          Flavour Fusion
         </Typography>
         <Typography
           gutterBottom
